@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+/* start of your custom css */
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito-ExtraBold.ttf");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito-SemiBold.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito-Light.otf");
+  font-weight: 300;
+}
+/* end of your custom css */
+
+@tailwind utilities;
